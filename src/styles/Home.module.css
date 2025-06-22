@@ -1,0 +1,34 @@
+.container {
+  background-color: #0f0f0f;
+  width: 100%;
+  height: calc(100vh - 76px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle {
+  color: #fff;
+  text-align: center;
+  margin: 28px;
+  line-height: 150%;
+}
+
+.infoContent {
+  display: flex;
+  justify-content: space-around;
+  gap: 130px;
+}
+
+.box {
+  display: flex;
+  padding: 14px 44px;
+  background-color: white;
+  border-radius: 4px;
+  transition: transform 0.4s;
+}
+
+.box:hover {
+  transform: scale(1.08);
+}
